@@ -27,6 +27,9 @@ Resources:
                     Properties:
                         Path: /
                         Method: ANY
+            Environment:
+                Variables:
+                    FOO: bar
 
     MissingHandler:
         Type: AWS::Serverless::Function
